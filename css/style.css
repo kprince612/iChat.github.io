@@ -1,0 +1,83 @@
+.logo {
+    display: block;
+    margin: auto;
+    height: 75px;
+    width: 75px;
+}
+
+.container {
+    max-width: 955px;
+    background: url('../HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: auto;
+    height: 70vh;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+body {
+    /* background: url('../bg.jpg') no-repeat center center fixed; */
+    background-size: cover;
+}
+
+.message {
+    background-color: white;
+    width: 25%;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.send {
+    margin-top: 10px;
+}
+
+#sendcontainer {
+    text-align: center;
+}
+
+#sendcontainer input {
+    width: 61%;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 28px;
+}
+
+.btn {
+    cursor: pointer;
+    height: 29px;
+    width: 48px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#user {
+    text-align: center;
+    margin: auto;
+    background-color: beige;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: chocolate;
+    padding: 8px 8px;
+}
