@@ -1,4 +1,5 @@
 const io = require ("socket.io") (8000)
+const PORT = process.env.PORT || 3000
 let count = 1;
 
 const users = {};
@@ -27,3 +28,7 @@ io.on ("connection", socket =>{
     //     socket.broadcast.emit ("co", count)
     // })
 })
+
+io.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
